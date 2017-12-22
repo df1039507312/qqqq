@@ -1,0 +1,58 @@
+public中存放前端项目资源
+views中存放后端页面资源
+
+url路径与后端的页面对应关系；
+
+1. 登录页面
+页面名称： login.html
+存放位置： views/admin/login.html
+url地址：  /admin/users/login
+路由模块： routes/admin/users.js
+
+2. 后台首页
+页面名称： admin.html
+存放位置： views/admin/admin.html
+url地址： /admin/index
+路由模块： routes/admin/admin.js
+
+3. 添加分类页面
+页面名称： category_add.html
+存放位置： views/admin/category_add.html
+url地址： /admin/cats/add
+路由模块：routes/admin/cats.js
+
+4. 分类列表页面
+页面名称： category_list.html
+存放位置： views/admin/category_list.html
+url地址： /admin/cats
+路由模块：routes/admin/cats.js
+
+5. 分类编辑页面
+页面名称： category_edit.html
+存放位置： views/admin/category_edit.html
+url地址： /admin/cats/edit
+路由模块：routes/admin/cats.js
+
+6. 文章添加页面
+页面名称： article_add.html
+存放位置： views/admin/article_add.html
+url地址：  /admin/posts/add
+路由模块： routes/admin/posts.js
+
+7. 文章列表页面
+页面名称： article_list.html
+存放位置： views/admin/article_list.html
+url地址：  /admin/posts
+路由模块： routes/admin/posts.js
+
+8. 显示前台首页
+页面名称： index.html
+存放位置： public/index.html
+url地址：  /
+路由模块： 静态资源文件夹public
+
+9. 显示前台文章页
+页面名称： article.html
+存放位置： public/article.html
+url地址：  /article.html
+路由模块： 静态资源文件夹public

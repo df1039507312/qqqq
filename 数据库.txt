@@ -1,0 +1,11 @@
+数据库名: tn_blog
+
+集合
+
+分类的数据: cats
+数据格式: title:分类名  sort:排序
+文章的数据: posts
+数据格式：title 文章标题  cat:分类名  summary:文章简介  connect:文章内容
+用户的数据: users
+数据格式：username:用户名  pwd:用户密码
+

@@ -1,0 +1,23 @@
+﻿一. 去  https://coding.net/ 注册一个账号
+
+二. 使用git去管理项目
+
+    1.在项目根目录下 启动命令行（Cmder） 
+    2.检测git是否可以用  git --version
+    3.在项目的根目录下创建 .gitignore文件
+    4.在该文件中书写内容为   node_modugitles
+
+三. git操作的命令
+
+    1.git init   初始化（仅执行一次）
+    2.git add .  添加所有改动
+    3.git commit -m '改动说明'  把添加的改动提交到本地仓库
+    4.添加远程仓库   git remote add origin 远程仓库地址  （仅执行一次）
+    5.把本地的项目提交到远程仓库  git push -u origin master (第一次提交的命令)  git push(之后提交)
+
+四. 假如本地项目丢失  
+
+    1. git clone 远程仓库地址    下载远程仓库的完整项目
+
+针对window7 git
+链接：https://pan.baidu.com/s/1bp99v2n 密码：umhl

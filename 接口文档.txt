@@ -1,0 +1,49 @@
+1. 登录接口
+url地址： http://localhost:3000/admin/users/signin
+请求方式：post
+传递参数： {username:用户名,pwd:用户密码}
+返回数据：成功后跳转到后台首页，失败后依然回到登录页面
+
+2. 退出登录接口
+url地址： http://localhost:3000/admin/users/logout
+请求方式：get
+传递参数： 无
+返回数据： 页面跳转到登录页面
+
+3. 添加分类接口
+url地址：http://localhost:3000/admin/cats/add
+请求方式：post
+传递参数：{title:分类名称,sort:分类序号}
+返回数据：{status:'success',msg:'添加成功'}
+
+4. 更新分类接口
+url地址：http://localhost:3000/admin/cats/edit
+请求方式：post
+传递参数：{title:分类名称,sort:分类序号,id:被更新的数据id}
+返回数据：{status:'success',msg:'更新成功'}
+
+5. 删除分类接口
+url地址：http://localhost:3000/admin/cats/delete
+请求方式：post
+传递参数：{id:被删除的数据id}
+返回数据：{status:'success',msg:'删除成功'}
+
+6. 添加文章接口
+url地址：http://localhost:3000/admin/posts/add
+请求方式：post
+传递参数：{cat:文章的分类,title:文章的标题,summary:文章的摘要,content:文章的内容}
+返回数据：{status:'success',msg:'添加成功'}
+
+7. 获取所有分类的接口
+url地址：http://localhost:3000/admin/posts/allCats
+请求方式：get
+传递参数：无
+返回数据：[{title:分类名}]
+
+8. 获取文章接口
+url地址：http://localhost:3000/admin/cats/article
+请求方式：get
+传递参数：{cat:分类名称}/{id:文章id}/无
+返回数据：[{title:文章标题,cat:分类,summary:摘要,content:文章内容}]
+说明：传递cat返回该分类下的所有文章   传递id返回特定的文章   无参数返回所有的文章
+
